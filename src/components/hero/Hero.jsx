@@ -9,7 +9,6 @@ const COMMAND = "Thomas.Grägel.init()";
 const SOCIALS = [
   { icon: GithubIcon, label: "GitHub", href: "https://github.com/GraegelTh" },
   { icon: LinkedinIcon, label: "LinkedIn", href: "https://www.linkedin.com/in/thomas-graegel-dev/" },
-  { icon: Mail, label: "Email", href: "mailto:contact@thomasgraegel.dev" },
 ];
 
 export default function Hero() {
@@ -50,7 +49,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 space-y-1 font-mono text-sm text-text-dim"
           >
-            <p>{"// .NET Developer | Agentic Developer Intern @ SISP"}</p>
+            <p>{"// Agentic Developer Intern @ SISP | C# / .NET"}</p>
             <p>{"// Based in Stockholm, Sweden"}</p>
           </motion.div>
         </TerminalWindow>
