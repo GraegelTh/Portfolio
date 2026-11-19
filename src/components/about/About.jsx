@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import SectionHeading from "../ui/SectionHeading";
 import TerminalWindow from "../ui/TerminalWindow";
+import Testimonial from "./Testimonial";
 
 export default function About() {
   return (
@@ -36,10 +37,19 @@ export default function About() {
             projects get complex.
           </p>
           <p>
-            I recently completed my Software Development degree with{" "}
-            <span className="text-text">top grades</span> and am currently expanding my
-            knowledge in the .NET ecosystem, Docker, and Agentic AI workflows. Most recently, I
-            worked as a Fullstack Software Developer Intern at{" "}
+            I recently completed my vocational training in Software Development with{" "}
+            <span className="text-text">top grades</span>. Since October 2026 I have been working
+            as an Agentic Developer Intern at{" "}
+            <span className="text-text">SISP (Swedish Incubators &amp; Science Parks)</span>, where
+            I build in a team with Claude Code inside an advanced harness of subagents, custom
+            skills, hooks and MCP servers. Right now I mostly work on one of SISP&rsquo;s websites
+            and the database behind it, where{" "}
+            <span className="text-text">reporting data</span> is collected so it can be analysed
+            and evaluated later. What interests me most is the question behind it: how agents
+            become a reliable part of a real team&rsquo;s workflow, not just a faster autocomplete.
+          </p>
+          <p>
+            Before that, I worked as a Fullstack Software Developer Intern at{" "}
             <span className="text-text">inovoo GmbH</span>, where I engineered a dynamic
             full-stack form builder module using ASP.NET Core and Blazor WebAssembly within an
             agile Scrum team.
@@ -58,14 +68,15 @@ export default function About() {
               <code>
                 {"{\n"}
                 {"  "}<span className="text-accent-2">"role"</span>:{" "}
-                <span className="text-text">"Junior .NET Developer"</span>{",\n"}
+                <span className="text-text">"Agentic Developer Intern @ SISP"</span>{",\n"}
                 {"  "}<span className="text-accent-2">"education"</span>:{" "}
                 <span className="text-text">"Software Development — Top of Class"</span>{",\n"}
                 {"  "}<span className="text-accent-2">"currently_learning"</span>: [{"\n"}
-                {"    "}<span className="text-text">".NET 8"</span>,{"\n"}
-                {"    "}<span className="text-text">"Docker"</span>,{"\n"}
-                {"    "}<span className="text-text">"Agentic Workflows (Business Central)"</span>,{"\n"}
-                {"    "}<span className="text-text">"Industrial Automation Patterns (Dark Factory / Fleet Manager)"</span>{"\n"}
+                {"    "}<span className="text-text">".NET 10"</span>,{"\n"}
+                {"    "}<span className="text-text">"Multi-Agent Workflows (Claude Code)"</span>,{"\n"}
+                {"    "}<span className="text-text">"MCP Servers"</span>,{"\n"}
+                {"    "}<span className="text-text">"Python"</span>,{"\n"}
+                {"    "}<span className="text-text">"Swedish (A2)"</span>{"\n"}
                 {"  ],\n"}
                 {"  "}<span className="text-accent-2">"values"</span>: [{"\n"}
                 {"    "}<span className="text-text">"curiosity"</span>,{"\n"}
@@ -73,13 +84,15 @@ export default function About() {
                 {"    "}<span className="text-text">"calm focus"</span>{"\n"}
                 {"  ],\n"}
                 {"  "}<span className="text-accent-2">"status"</span>:{" "}
-                <span className="text-accent">"relocating_to_sweden_aug_2026"</span>{"\n"}
+                <span className="text-accent">"based_in_stockholm"</span>{"\n"}
                 {"}"}
               </code>
             </pre>
           </TerminalWindow>
         </motion.div>
       </div>
+
+      <Testimonial />
     </section>
   );
 }

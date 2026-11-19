@@ -19,11 +19,15 @@ export const STACK = [
   { name: "Docker Compose", category: "infra" },
   { name: "Azure DevOps", category: "infra" },
   { name: "SQL Server", category: "infra" },
+  { name: "SQLite", category: "infra" },
+  { name: "Linux", category: "infra" },
   { name: "CI/CD Pipelines", category: "infra" },
 
+  { name: "Claude Code", category: "ai" },
+  { name: "MCP", category: "ai" },
   { name: "Agentic Workflows", category: "ai" },
+  { name: "Claude API", category: "ai" },
   { name: "Ollama", category: "ai" },
   { name: "Oobabooga", category: "ai" },
-  { name: "Prompt Engineering", category: "ai" },
   { name: "Python", category: "ai" },
 ];

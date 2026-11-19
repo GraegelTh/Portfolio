@@ -50,8 +50,8 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-4 space-y-1 font-mono text-sm text-text-dim"
           >
-            <p>{"// Junior .NET Developer | Agentic AI Enthusiast"}</p>
-            <p>{"// Relocating to Stockholm/Gothenburg, Sweden — Aug 2026"}</p>
+            <p>{"// .NET Developer | Agentic Developer Intern @ SISP"}</p>
+            <p>{"// Based in Stockholm, Sweden"}</p>
           </motion.div>
         </TerminalWindow>
 
@@ -59,8 +59,16 @@ export default function Hero() {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: done ? 1 : 0, y: done ? 0 : 12 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex items-center gap-3"
+          className="flex flex-wrap items-center gap-3"
         >
+          <a
+            href="mailto:contact@thomasgraegel.dev"
+            className="flex items-center gap-2 rounded-md border border-accent/60 bg-accent/10 px-4 py-2.5 font-mono text-sm text-accent transition-colors hover:bg-accent/20"
+          >
+            <Mail size={16} />
+            get_in_touch
+          </a>
+          <span className="mx-1 hidden h-6 w-px bg-border sm:block" aria-hidden="true" />
           {SOCIALS.map(({ icon: Icon, label, href }) => (
             <a
               key={label}

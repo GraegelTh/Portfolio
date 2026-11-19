@@ -9,6 +9,14 @@ export const PROJECTS = [
     linkLabel: "View on GitHub",
   },
   {
+    title: "NuGet Auditor MCP",
+    description:
+      "A .NET 10 Model Context Protocol server that connects AI agents to the live NuGet V3 API, so an agent can check a package for known vulnerabilities and maintenance status before adding it to a project.",
+    stack: [".NET 10", "C#", "MCP", "NuGet API"],
+    href: "https://github.com/GraegelTh/nuget-auditor-mcp",
+    linkLabel: "View on GitHub",
+  },
+  {
     title: "Home Lab & AI Infrastructure",
     description:
       "A private homelab stack for data sovereignty and infrastructure experimentation. Recently expanded the base setup with a remote-access pipeline to interface with local Ollama/Oobabooga AI instances.",
